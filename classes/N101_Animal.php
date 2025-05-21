@@ -9,5 +9,9 @@ abstract class Animal
         $this->nombre = $nombre;
     }
 
+    public function getNombre(): string {
+        return $this->nombre;
+    }
+
     abstract public function makeSound();
 }
